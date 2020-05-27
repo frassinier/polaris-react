@@ -19,7 +19,7 @@ $backdrop-color: rgba(color('ink'), 0.4);
 
   transition-property: background-color;
   transition-duration: 33ms;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: easing();
   transition-delay: 33ms;
 }
 

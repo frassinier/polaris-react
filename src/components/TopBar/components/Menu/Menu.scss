@@ -4,7 +4,7 @@ $activator-variables: (
   min-width: rem(36px),
   transition: (
     background-color 0.1s,
-    33ms color ease-in-out 33ms,
+    33ms color easing() 33ms,
   ),
   focus-opacity: 0.85,
 );

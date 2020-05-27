@@ -54,7 +54,7 @@ $stacking-order: (
 
     transition-property: color;
     transition-duration: 33ms;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: easing();
     transition-delay: 33ms;
   }
 }
@@ -106,7 +106,7 @@ $stacking-order: (
 
     transition-property: color;
     transition-duration: 33ms;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: easing();
     transition-delay: 33ms;
   }
 
@@ -135,7 +135,7 @@ $stacking-order: (
   svg {
     transition-property: fill;
     transition-duration: 33ms;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: easing();
     transition-delay: 33ms;
   }
 }

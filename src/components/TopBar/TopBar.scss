@@ -13,7 +13,7 @@ $context-control-expand-after: 1400px;
   background-color: var(--p-background, var(--top-bar-background));
   transition-property: background-color;
   transition-duration: duration(slow);
-  transition-timing-function: ease-in-out;
+  transition-timing-function: easing();
 
   &::after {
     content: '';

@@ -19,7 +19,7 @@
 
   transition-property: color;
   transition-duration: 33ms;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: easing();
   transition-delay: 33ms;
 }
 
@@ -32,6 +32,6 @@
 
   transition-property: color;
   transition-duration: 33ms;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: easing();
   transition-delay: 33ms;
 }
