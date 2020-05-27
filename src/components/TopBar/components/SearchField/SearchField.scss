@@ -51,6 +51,11 @@ $stacking-order: (
 
   &::placeholder {
     color: var(--p-text-subdued, color('ink', 'lightest'));
+
+    transition-property: color;
+    transition-duration: 33ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 33ms;
   }
 }
 
@@ -98,6 +103,11 @@ $stacking-order: (
 
   &::placeholder {
     color: var(--p-text, var(--top-bar-color));
+
+    transition-property: color;
+    transition-duration: 33ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 33ms;
   }
 
   &::-webkit-search-decoration,
@@ -121,6 +131,13 @@ $stacking-order: (
   height: $icon-size;
   pointer-events: none;
   transform: translateY(-50%);
+
+  svg {
+    transition-property: fill;
+    transition-duration: 33ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 33ms;
+  }
 }
 
 .Clear {

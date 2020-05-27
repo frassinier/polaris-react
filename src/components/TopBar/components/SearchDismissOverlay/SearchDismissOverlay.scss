@@ -2,7 +2,7 @@
 @import '../../variables';
 
 $entry-iterations: 1;
-$backdrop-color: rgba(33, 43, 54, 0.4);
+$backdrop-color: rgba(color('ink'), 0.4);
 
 .SearchDismissOverlay {
   position: fixed;
@@ -16,6 +16,11 @@ $backdrop-color: rgba(33, 43, 54, 0.4);
 .visible {
   background-color: var(--p-backdrop, $backdrop-color);
   animation: fade-in duration() $entry-iterations forwards;
+
+  transition-property: background-color;
+  transition-duration: 33ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 33ms;
 }
 
 @keyframes fade-in {

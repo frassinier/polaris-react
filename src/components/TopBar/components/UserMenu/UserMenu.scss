@@ -16,6 +16,11 @@
   line-height: line-height(subheading);
   color: var(--p-text, var(--top-bar-color));
   text-align: left;
+
+  transition-property: color;
+  transition-duration: 33ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 33ms;
 }
 
 .Detail {
@@ -24,4 +29,9 @@
   opacity: 0.7;
   color: var(--p-text, var(--top-bar-color));
   text-align: left;
+
+  transition-property: color;
+  transition-duration: 33ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 33ms;
 }
