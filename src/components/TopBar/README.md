@@ -553,7 +553,9 @@ function TopBarExample() {
         }}
       >
         <Frame topBar={topBarMarkup}>
-          <Button onClick={handleThemeChange}>Switch themes</Button>
+          <Button onClick={handleThemeChange}>
+            Toggle between dark and light themes
+          </Button>
         </Frame>
       </AppProvider>
     </div>
